@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-    route :to => 'spots#index'
+    root :to => 'spots#index'
 end
